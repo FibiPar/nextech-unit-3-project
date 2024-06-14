@@ -1,0 +1,131 @@
+/* When someone enters your game, you only want them to see the opening and the option buttons. The code below will use the display property to hide certain parts of the story. Remove the comments from the code below when you're ready for that step!*/
+
+
+.title, 
+.story-opening, 
+.option-one, 
+.option-two,
+.option-one-screen,
+.option-three,
+.option-four,
+.option-two-screen,
+.option-three-screen,
+.option-four-screen
+{
+   display:none;
+}
+
+.input {
+    background-image: url("https://images4.alphacoders.com/661/661705.jpg");
+    background-size: 1000px;
+    width:500px;
+    height:500px;
+    text-align:center;
+    display: block;
+    padding: 250px;
+}
+
+
+/* Feel free to change any of the styling below!*/
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the body with a background color or image if desired */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the title of your story */
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Style the story opening container */
+.story-opening {
+    background-color: #c9cfe7;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(109, 95, 159, 0.2);
+}
+
+/* Style the story image */
+.story-opening img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Style the story opening message */
+.story-opening h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* Style the buttons container */
+.buttons {
+    margin: 20px;
+}
+
+/* Style the option buttons */
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #283e4e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #417ab6;
+}
+
+/* Style the screens for option one and option two */
+.option-one-screen,
+.option-two-screen,
+.option-three-screen,
+.option-four-screen,
+.option-one-end,
+.option-two-end {
+    background-color: #b8d7eb;
+    border: 1px solid #617ac4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(148, 164, 235, 0.2);
+    margin-bottom: 10px;
+}
+
+/* Style the images in the screens */
+.option-one-screen img,
+.option-two-screen img,
+.option-three-screen img,
+.option-four-screen img,
+.option-one-end img,
+.option-two-end img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Style the text in the screens */
+.option-one-screen h1,
+.option-two-screen h1,
+.option-three-screen h1,
+.option-four-screen h1,
+.option-one-end h1,
+.option-two-end h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}

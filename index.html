@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Train to Tokyo</title>
+    </head>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    
+    <body>
+     <div class="input">
+        <label for="Name">Name:</label>
+        <input type="text" id="Name" name="Name"
+        placeholder="Type Name Here ">
+        <br>
+            <button class="submitButton"> Submit</button>
+
+     </div>
+    
+
+        <div class="title"> Train to Tokyo </div>
+        <div class="story-opening">
+            <img src="https://i.pinimg.com/564x/91/b1/ca/91b1ca78c4890e48ab611c46fce7fbfc.jpg">
+            <h1>Would you like to go aboard the train?</h1>
+        </div>
+            <button class="option-one">Yes</button>
+            <button class="option-two">No</button>
+        </div>
+
+       </div>
+       <div class="option-one-screen">
+        <h1>Kiki's Special Delivery</h1>
+        <img src="https://i.pinimg.com/564x/2f/fa/92/2ffa92d93e998122c288f541f5b8d25d.jpg">
+        <p> Kiki's wondering if you would like to help her deliver the cat after the train ride.</p>
+        </div>
+        <button class="option-three"> Yes, I would love to!</button>
+        <button class="option-four"> No, I want to stay on the train.</button>
+    </div>
+
+    <div class="option-two-screen">
+        <h1>Have Fun Walking Home! </h1>
+        <img src="https://i.pinimg.com/564x/13/6c/78/136c78aa748b76d6ba64ce2ffb9e741e.jpg">
+    </div>
+       
+    <div class="option-three-screen">
+        <h1>Thank you for your help!</h1>
+        <img src="https://i.pinimg.com/564x/cd/2d/cc/cd2dcceba4c5c29a3e44960e466f6c55.jpg">
+        <p id="demo" onclick="myFunction()">Click me.</p>
+    </div>
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Meow!";
+}
+</script>
+    </div>   
+
+    <div class="option-four-screen">
+        <h1> Have a fun train ride!</h1>
+        <img src="https://i.pinimg.com/564x/80/a9/64/80a9648abd05c1af29145a4a2fa6c887.jpg">
+    </div>
+
+        <!--Put the end of the story if the user chose option 1.-->
+       <!-- <div class="option-one-end"> -->
+            <!-- <h1>Put final part of your story based on if they chosen option 1 at the beginning </h1> -->
+            <!-- <img src="https://cdn.glitch.global/9d066a26-dbcb-4aa3-b1af-3cd59e251b0c/placeholder.jpeg?v=1657576139439">
+        </div>
+
+        Put the end of the story if the user chose option 2.-->
+        <!-- <div class="option-two-end"> -->
+            <!-- <h1>Put final part of your story based on if they chosen option 2 at the beginning </h1> -->
+            <!-- <img src="https://cdn.glitch.global/9d066a26-dbcb-4aa3-b1af-3cd59e251b0c/placeholder.jpeg?v=1657576139439"> -->
+        <!-- </div> --> 
+    
+    </body>
+</html>
